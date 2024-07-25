@@ -25,7 +25,7 @@
                     <div class="nav__menu" id="nav-menu">
                         <ul class="nav__list grid">
                             <li class="nav__item">
-                                <a href="#home" class="nav__link">
+                                <a href="#home" class="nav__link active-link">
                                     <i class="uil uil-estate nav__icon"></i> Home
                                 </a>
                             </li>
@@ -60,6 +60,8 @@
                     </div>
 
                     <div class="nav__btns">
+                        <!-- Theme change button -->
+                        <i class="uil uil-moon change-theme" id="theme-button"></i>
                         <div class="nav__toggle" id="nav-toggle">
                             <i class="uil uil-apps"></i>
                         </div>
@@ -107,7 +109,7 @@
 
                         <div class="home__data">
                             <h1 class="home__title">Hi, I'm Surya </h1>
-                            <h3 class="home__subtitle">Full Stacks Developer</h3>
+                            <h3 class="home__subtitle">Full Stack Developer</h3>
                             <p class="home__description">
                                 As a fresher, I am eager to start my career as a web developer.
                             </p>
@@ -613,7 +615,7 @@
                     <div class="swiper-wrapper">
                          <!--==================== PROJECT 1 ====================-->
                          <div class="portfolio__content grid swiper-slide">
-                            <img src="./assets/img/portfolio1.jpg" alt="" class="portfolio__img">
+                            <img src="./assets/img/portfolio1.gif"  alt="" class="portfolio__img">
 
                             <div class="portfolio__data">
                                 <h3 class="portfolio__title">AI Based Personalized Outfit Recommender</h3>
@@ -630,7 +632,7 @@ exploration, the system adapts to trends and user feedback. This platform aims t
                          </div>
                          <!--==================== PROJECT 2 ====================-->
                          <div class="portfolio__content grid swiper-slide">
-                            <img src="./assets/img/portfolio2.jpg" alt="" class="portfolio__img">
+                            <img src="./assets/img/portfolio2.gif" alt="" class="portfolio__img">
 
                             <div class="portfolio__data">
                                 <h3 class="portfolio__title">Handwriting Recognition</h3>
@@ -646,7 +648,7 @@ exploration, the system adapts to trends and user feedback. This platform aims t
                          </div>
                          <!--==================== PROJECT 3 ====================-->
                          <div class="portfolio__content grid swiper-slide">
-                            <img src="./assets/img/portfolio3.jpg" alt="" class="portfolio__img">
+                            <img src="./assets/img/portfolio3.gif" alt="" class="portfolio__img">
 
                             <div class="portfolio__data">
                                 <h3 class="portfolio__title">Student Management System</h3>
@@ -674,29 +676,518 @@ exploration, the system adapts to trends and user feedback. This platform aims t
                 
             </section>
 
-            <!--==================== PROJECT IN MIND ====================-->
-            <section class="project section">
+           
 
-            </section>
+            <!--==================== EXTRA CURRICULAR ACTIVITIES ====================-->
+<section class="testimonials section" id="testimonials">
+    <h2 class="section__title">Extra-Curricular Activities</h2>
+    <span class="section__subtitle">Achievements and Participation</span>
 
-            <!--==================== TESTIMONIAL ====================-->
-            <section class="testimonial section">
-                
-            </section>
+    <div class="testimonials__container container grid">
+         <!--==================== ACTIVITY 1 ====================-->
+         <div class="testimonials__content">
+            <div class="testimonials__certificate">
+                <img src="path/to/certificate1.jpg" alt="Certificate 1" class="testimonials__certificate-img">
+                <span class="testimonials__certificate-watermark">Event Name</span>
+            </div>
+            <div class="testimonials__button-wrapper">
+                <span class="button button--flex button--small button--link testimonials__button">
+                    View 
+                    <i class="uil uil-arrow-right button__icon"></i>
+                </span>
+            </div>
+
+            <div class="testimonials__modal">
+                <div class="testimonials__modal-content">
+                    <h4 class="testimonials__modal-title">
+                        Activity 1 Details
+                    </h4>
+                    <i class="uil uil-times testimonials__modal-close"></i>
+
+                    <!-- Event Details -->
+                    <ul class="testimonials__modal-services grid">
+                        <li class="testimonials__modal-service">
+                            <i class="uil uil-check-circle testimonials__modal-icon"></i>
+                            <p>Event Name: Sample Event</p>
+                        </li>
+                        <li class="testimonials__modal-service">
+                            <i class="uil uil-check-circle testimonials__modal-icon"></i>
+                            <p>Event Type: Workshop</p>
+                        </li>
+                        <li class="testimonials__modal-service">
+                            <i class="uil uil-check-circle testimonials__modal-icon"></i>
+                            <p>Link to Certificate: <a href="path/to/certificate1.pdf" target="_blank">View Certificate</a></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+         </div>
+          <!--==================== ACTIVITY 1 ====================-->
+          <div class="testimonials__content">
+            <div class="testimonials__certificate">
+                <img src="path/to/certificate1.jpg" alt="Certificate 1" class="testimonials__certificate-img">
+                <span class="testimonials__certificate-watermark">Event Name</span>
+            </div>
+            <div class="testimonials__button-wrapper">
+                <span class="button button--flex button--small button--link testimonials__button">
+                    View 
+                    <i class="uil uil-arrow-right button__icon"></i>
+                </span>
+            </div>
+
+            <div class="testimonials__modal">
+                <div class="testimonials__modal-content">
+                    <h4 class="testimonials__modal-title">
+                        Activity 1 Details
+                    </h4>
+                    <i class="uil uil-times testimonials__modal-close"></i>
+
+                    <!-- Event Details -->
+                    <ul class="testimonials__modal-services grid">
+                        <li class="testimonials__modal-service">
+                            <i class="uil uil-check-circle testimonials__modal-icon"></i>
+                            <p>Event Name: Sample Event</p>
+                        </li>
+                        <li class="testimonials__modal-service">
+                            <i class="uil uil-check-circle testimonials__modal-icon"></i>
+                            <p>Event Type: Workshop</p>
+                        </li>
+                        <li class="testimonials__modal-service">
+                            <i class="uil uil-check-circle testimonials__modal-icon"></i>
+                            <p>Link to Certificate: <a href="path/to/certificate1.pdf" target="_blank">View Certificate</a></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+         </div>
+          <!--==================== ACTIVITY 1 ====================-->
+          <div class="testimonials__content">
+            <div class="testimonials__certificate">
+                <img src="path/to/certificate1.jpg" alt="Certificate 1" class="testimonials__certificate-img">
+                <span class="testimonials__certificate-watermark">Event Name</span>
+            </div>
+            <div class="testimonials__button-wrapper">
+                <span class="button button--flex button--small button--link testimonials__button">
+                    View 
+                    <i class="uil uil-arrow-right button__icon"></i>
+                </span>
+            </div>
+
+            <div class="testimonials__modal">
+                <div class="testimonials__modal-content">
+                    <h4 class="testimonials__modal-title">
+                        Activity 1 Details
+                    </h4>
+                    <i class="uil uil-times testimonials__modal-close"></i>
+
+                    <!-- Event Details -->
+                    <ul class="testimonials__modal-services grid">
+                        <li class="testimonials__modal-service">
+                            <i class="uil uil-check-circle testimonials__modal-icon"></i>
+                            <p>Event Name: Sample Event</p>
+                        </li>
+                        <li class="testimonials__modal-service">
+                            <i class="uil uil-check-circle testimonials__modal-icon"></i>
+                            <p>Event Type: Workshop</p>
+                        </li>
+                        <li class="testimonials__modal-service">
+                            <i class="uil uil-check-circle testimonials__modal-icon"></i>
+                            <p>Link to Certificate: <a href="path/to/certificate1.pdf" target="_blank">View Certificate</a></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+         </div>
+          <!--==================== ACTIVITY 1 ====================-->
+          <div class="testimonials__content">
+            <div class="testimonials__certificate">
+                <img src="path/to/certificate1.jpg" alt="Certificate 1" class="testimonials__certificate-img">
+                <span class="testimonials__certificate-watermark">Event Name</span>
+            </div>
+            <div class="testimonials__button-wrapper">
+                <span class="button button--flex button--small button--link testimonials__button">
+                    View 
+                    <i class="uil uil-arrow-right button__icon"></i>
+                </span>
+            </div>
+
+            <div class="testimonials__modal">
+                <div class="testimonials__modal-content">
+                    <h4 class="testimonials__modal-title">
+                        Activity 1 Details
+                    </h4>
+                    <i class="uil uil-times testimonials__modal-close"></i>
+
+                    <!-- Event Details -->
+                    <ul class="testimonials__modal-services grid">
+                        <li class="testimonials__modal-service">
+                            <i class="uil uil-check-circle testimonials__modal-icon"></i>
+                            <p>Event Name: Sample Event</p>
+                        </li>
+                        <li class="testimonials__modal-service">
+                            <i class="uil uil-check-circle testimonials__modal-icon"></i>
+                            <p>Event Type: Workshop</p>
+                        </li>
+                        <li class="testimonials__modal-service">
+                            <i class="uil uil-check-circle testimonials__modal-icon"></i>
+                            <p>Link to Certificate: <a href="path/to/certificate1.pdf" target="_blank">View Certificate</a></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+         </div>
+          <!--==================== ACTIVITY 1 ====================-->
+          <div class="testimonials__content">
+            <div class="testimonials__certificate">
+                <img src="path/to/certificate1.jpg" alt="Certificate 1" class="testimonials__certificate-img">
+                <span class="testimonials__certificate-watermark">Event Name</span>
+            </div>
+            <div class="testimonials__button-wrapper">
+                <span class="button button--flex button--small button--link testimonials__button">
+                    View 
+                    <i class="uil uil-arrow-right button__icon"></i>
+                </span>
+            </div>
+
+            <div class="testimonials__modal">
+                <div class="testimonials__modal-content">
+                    <h4 class="testimonials__modal-title">
+                        Activity 1 Details
+                    </h4>
+                    <i class="uil uil-times testimonials__modal-close"></i>
+
+                    <!-- Event Details -->
+                    <ul class="testimonials__modal-services grid">
+                        <li class="testimonials__modal-service">
+                            <i class="uil uil-check-circle testimonials__modal-icon"></i>
+                            <p>Event Name: Sample Event</p>
+                        </li>
+                        <li class="testimonials__modal-service">
+                            <i class="uil uil-check-circle testimonials__modal-icon"></i>
+                            <p>Event Type: Workshop</p>
+                        </li>
+                        <li class="testimonials__modal-service">
+                            <i class="uil uil-check-circle testimonials__modal-icon"></i>
+                            <p>Link to Certificate: <a href="path/to/certificate1.pdf" target="_blank">View Certificate</a></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+         </div>
+          <!--==================== ACTIVITY 1 ====================-->
+          <div class="testimonials__content">
+            <div class="testimonials__certificate">
+                <img src="path/to/certificate1.jpg" alt="Certificate 1" class="testimonials__certificate-img">
+                <span class="testimonials__certificate-watermark">Event Name</span>
+            </div>
+            <div class="testimonials__button-wrapper">
+                <span class="button button--flex button--small button--link testimonials__button">
+                    View 
+                    <i class="uil uil-arrow-right button__icon"></i>
+                </span>
+            </div>
+
+            <div class="testimonials__modal">
+                <div class="testimonials__modal-content">
+                    <h4 class="testimonials__modal-title">
+                        Activity 1 Details
+                    </h4>
+                    <i class="uil uil-times testimonials__modal-close"></i>
+
+                    <!-- Event Details -->
+                    <ul class="testimonials__modal-services grid">
+                        <li class="testimonials__modal-service">
+                            <i class="uil uil-check-circle testimonials__modal-icon"></i>
+                            <p>Event Name: Sample Event</p>
+                        </li>
+                        <li class="testimonials__modal-service">
+                            <i class="uil uil-check-circle testimonials__modal-icon"></i>
+                            <p>Event Type: Workshop</p>
+                        </li>
+                        <li class="testimonials__modal-service">
+                            <i class="uil uil-check-circle testimonials__modal-icon"></i>
+                            <p>Link to Certificate: <a href="path/to/certificate1.pdf" target="_blank">View Certificate</a></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+         </div>
+          <!--==================== ACTIVITY 1 ====================-->
+          <div class="testimonials__content">
+            <div class="testimonials__certificate">
+                <img src="path/to/certificate1.jpg" alt="Certificate 1" class="testimonials__certificate-img">
+                <span class="testimonials__certificate-watermark">Event Name</span>
+            </div>
+            <div class="testimonials__button-wrapper">
+                <span class="button button--flex button--small button--link testimonials__button">
+                    View 
+                    <i class="uil uil-arrow-right button__icon"></i>
+                </span>
+            </div>
+
+            <div class="testimonials__modal">
+                <div class="testimonials__modal-content">
+                    <h4 class="testimonials__modal-title">
+                        Activity 1 Details
+                    </h4>
+                    <i class="uil uil-times testimonials__modal-close"></i>
+
+                    <!-- Event Details -->
+                    <ul class="testimonials__modal-services grid">
+                        <li class="testimonials__modal-service">
+                            <i class="uil uil-check-circle testimonials__modal-icon"></i>
+                            <p>Event Name: Sample Event</p>
+                        </li>
+                        <li class="testimonials__modal-service">
+                            <i class="uil uil-check-circle testimonials__modal-icon"></i>
+                            <p>Event Type: Workshop</p>
+                        </li>
+                        <li class="testimonials__modal-service">
+                            <i class="uil uil-check-circle testimonials__modal-icon"></i>
+                            <p>Link to Certificate: <a href="path/to/certificate1.pdf" target="_blank">View Certificate</a></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+         </div>
+          <!--==================== ACTIVITY 1 ====================-->
+          <div class="testimonials__content">
+            <div class="testimonials__certificate">
+                <img src="path/to/certificate1.jpg" alt="Certificate 1" class="testimonials__certificate-img">
+                <span class="testimonials__certificate-watermark">Event Name</span>
+            </div>
+            <div class="testimonials__button-wrapper">
+                <span class="button button--flex button--small button--link testimonials__button">
+                    View 
+                    <i class="uil uil-arrow-right button__icon"></i>
+                </span>
+            </div>
+
+            <div class="testimonials__modal">
+                <div class="testimonials__modal-content">
+                    <h4 class="testimonials__modal-title">
+                        Activity 1 Details
+                    </h4>
+                    <i class="uil uil-times testimonials__modal-close"></i>
+
+                    <!-- Event Details -->
+                    <ul class="testimonials__modal-services grid">
+                        <li class="testimonials__modal-service">
+                            <i class="uil uil-check-circle testimonials__modal-icon"></i>
+                            <p>Event Name: Sample Event</p>
+                        </li>
+                        <li class="testimonials__modal-service">
+                            <i class="uil uil-check-circle testimonials__modal-icon"></i>
+                            <p>Event Type: Workshop</p>
+                        </li>
+                        <li class="testimonials__modal-service">
+                            <i class="uil uil-check-circle testimonials__modal-icon"></i>
+                            <p>Link to Certificate: <a href="path/to/certificate1.pdf" target="_blank">View Certificate</a></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+         </div>
+          <!--==================== ACTIVITY 1 ====================-->
+          <div class="testimonials__content">
+            <div class="testimonials__certificate">
+                <img src="path/to/certificate1.jpg" alt="Certificate 1" class="testimonials__certificate-img">
+                <span class="testimonials__certificate-watermark">Event Name</span>
+            </div>
+            <div class="testimonials__button-wrapper">
+                <span class="button button--flex button--small button--link testimonials__button">
+                    View 
+                    <i class="uil uil-arrow-right button__icon"></i>
+                </span>
+            </div>
+
+            <div class="testimonials__modal">
+                <div class="testimonials__modal-content">
+                    <h4 class="testimonials__modal-title">
+                        Activity 1 Details
+                    </h4>
+                    <i class="uil uil-times testimonials__modal-close"></i>
+
+                    <!-- Event Details -->
+                    <ul class="testimonials__modal-services grid">
+                        <li class="testimonials__modal-service">
+                            <i class="uil uil-check-circle testimonials__modal-icon"></i>
+                            <p>Event Name: Sample Event</p>
+                        </li>
+                        <li class="testimonials__modal-service">
+                            <i class="uil uil-check-circle testimonials__modal-icon"></i>
+                            <p>Event Type: Workshop</p>
+                        </li>
+                        <li class="testimonials__modal-service">
+                            <i class="uil uil-check-circle testimonials__modal-icon"></i>
+                            <p>Link to Certificate: <a href="path/to/certificate1.pdf" target="_blank">View Certificate</a></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+         </div>
+          <!--==================== ACTIVITY 1 ====================-->
+         <div class="testimonials__content">
+            <div class="testimonials__certificate">
+                <img src="path/to/certificate1.jpg" alt="Certificate 1" class="testimonials__certificate-img">
+                <span class="testimonials__certificate-watermark">Event Name</span>
+            </div>
+            <div class="testimonials__button-wrapper">
+                <span class="button button--flex button--small button--link testimonials__button">
+                    View 
+                    <i class="uil uil-arrow-right button__icon"></i>
+                </span>
+            </div>
+
+            <div class="testimonials__modal">
+                <div class="testimonials__modal-content">
+                    <h4 class="testimonials__modal-title">
+                        Activity 1 Details
+                    </h4>
+                    <i class="uil uil-times testimonials__modal-close"></i>
+
+                    <!-- Event Details -->
+                    <ul class="testimonials__modal-services grid">
+                        <li class="testimonials__modal-service">
+                            <i class="uil uil-check-circle testimonials__modal-icon"></i>
+                            <p>Event Name: Sample Event</p>
+                        </li>
+                        <li class="testimonials__modal-service">
+                            <i class="uil uil-check-circle testimonials__modal-icon"></i>
+                            <p>Event Type: Workshop</p>
+                        </li>
+                        <li class="testimonials__modal-service">
+                            <i class="uil uil-check-circle testimonials__modal-icon"></i>
+                            <p>Link to Certificate: <a href="path/to/certificate1.pdf" target="_blank">View Certificate</a></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+         </div>
+
+        
+    </div>
+</section>
+
+
+
+
+
 
             <!--==================== CONTACT ME ====================-->
             <section class="contact section" id="contact">
+                <h2 class="section_title">Contact Me</h2>
+                <span class="section__subtitle">Get in touch</span>
 
+                <div class="contact__container container grid">
+                    <div>
+                        <div class="contact__information">
+                            <i class="uil uil-phone contact__icon"></i>
+
+                            <div>
+                                <h3 class="contact_title">Call Me</h3>
+                                <span class="contact__subtitle">+91 8300011369</span>
+                            </div>
+                        </div>
+                        <div class="contact__information">
+                            <i class="uil uil-envelope contact__icon"></i>
+
+                            <div>
+                                <h3 class="contact_title">Email</h3>
+                                <span class="contact__subtitle">suryass1215@gmail.com</span>
+                            </div>
+                        </div>
+                        <div class="contact__information">
+                            <i class="uil uil-map-marker contact__icon"></i>
+
+                            <div>
+                                <h3 class="contact_title">Call Location</h3>
+                                <span class="contact__subtitle">Hosur, TamilNadu, India</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form action="" class="contact__form grid">
+                        <div class="contact__inputs grid">
+                            <div class="contact__content">
+                                <label for="" class="contact__label">Name</label>
+                                <input type="text" class="contact__input">
+                            </div>
+                            <div class="contact__content">
+                                <label for="" class="contact__label">Email</label>
+                                <input type="email" class="contact__input">
+                            </div>
+                        </div>
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Message</label>
+                            <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                        </div>
+
+                        <div>
+                            <a href="#" class="button button--flex">
+                                Send Message
+                                <i class="uil uil-message button__icon"></i>
+                            </a>
+                        </div>
+                        
+                    </form>
+                </div>
             </section>
         </main>
 
         <!--==================== FOOTER ====================-->
         <footer class="footer">
-         
+         <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h1 class="footer__title">Surya</h1>
+                    <span class="footer__subtitle">Full Stack Developer</span>
+                </div>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#about" class="footer__link">About</a>
+                    </li>
+                    <li>
+                        <a href="#skills" class="footer__link">Skills</a>
+                    </li>
+                    
+                    <li>
+                        <a href="#services" class="footer__link">Education</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" class="footer__link">Projects</a>
+                    </li>
+                    
+                    <li>
+                        <a href="#contact" class="footer__link">Contact</a>
+                    </li>
+                </ul>
+
+                <div class="footer__socials">
+                    <a href="https://www.linkedin.com/in/suryass-1512-/" target="_blank" class="footer__social">
+                        <i class="uil uil-linkedin-alt"></i>
+                    </a>
+                    <a href="https://github.com/Surya-1512" target="_blank" class="footer__social">
+                        <i class="uil uil-github"></i>
+                    </a>
+                    <a href="https://www.instagram.com/freaky.__.surya/" target="_blank" class="footer__social">
+                        <i class="uil uil-instagram"></i>
+                    </a>
+                   
+                    <a href="https://wa.me/+918300011369" target="_blank" class="footer__social">
+                        <i class="uil uil-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+            <p class="footer__copy">&#169; Surya. All right reserved</p>
+         </div>
         </footer>
         
         <!--==================== SCROLL TOP ====================-->
-        
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="uil uil-arrow-up scrollup__icon"></i>
+        </a>
 
         <!--==================== SWIPER JS ====================-->
         <script src="./assets/js/swiper-bundle.min.js"></script>
