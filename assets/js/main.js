@@ -76,37 +76,7 @@ tabs.forEach(tab=>{
     })
 })        
 
-/*==================== SERVICES MODAL ====================*/
 
-const modalViews=document.querySelectorAll('.services__modal'),
-      modalBtns=document.querySelectorAll('.services__button')
-      modalCloses= document.querySelectorAll('.services__modal-close')
-
-let modal = function(modalClick){
-    modalViews[modalClick].classList.add('active-modal')
-}
-
-modalBtns.forEach((modalBtn,i)=>{
-    modalBtn.addEventListener('click',()=>{
-        modal(i)
-    })
-})
-
-modalCloses.forEach((modalClose)=>{
-    modalClose.addEventListener('click',()=>{
-        modalViews.forEach((modalView)=>{
-            modalView.classList.remove('active-modal')
-        })
-    })
-    
-})
-document.addEventListener('keydown', (event) => {
-    if (event.key === "Escape") {
-        modalViews.forEach((modalView) => {
-            modalView.classList.remove('active-modal');
-        });
-    }
-});
 
 /*==================== PORTFOLIO SWIPER  ====================*/
 let swiper = new Swiper('.portfolio__container', {
@@ -236,3 +206,7 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
 }) 
+
+
+
+

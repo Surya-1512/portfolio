@@ -1,1 +1,1 @@
-`Under Construction. Please Wait`
+`Personal Portfolio using HTML CSS and JS`
