@@ -397,7 +397,7 @@ img {
 }
 
 /*==================== ABOUT ====================*/
-.about_img{
+.about__img{
   width: 200px;
   border-radius: .5rem;
   justify-self: center;
